@@ -40,7 +40,7 @@ The following example utilizes `build.sh` to build the `python34-Pint` package.
 git clone https://github.com/vietjtnguyen/rpm-helper.git
 cd rpm-helper
 git clone https://github.com/vietjtnguyen/fzf-rpm.git
-./build /etc/mock/epel-7-x86_64.cfg ./fzf-rpm
+./build.sh /etc/mock/epel-7-x86_64.cfg ./fzf-rpm
 ```
 
 # `optimistic_fedora_build.sh`
